@@ -336,6 +336,11 @@ footer{
   font-size: 0.85em;
 }
 
+.follow a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .follow i{
   font-size: 30px;
   padding: 0 10px;
