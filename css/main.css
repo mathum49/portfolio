@@ -96,7 +96,7 @@ body{
   margin: 0 auto;
 }
 header {
-  padding: 50px 0;
+  /* padding: 50px 0; */
   background-color: #E8F0E4;
   /* min-height: 500px; */
   min-height: 100vh;
@@ -128,6 +128,9 @@ h3{
 
 
 /* Nav styling **************/
+nav{
+  padding-top:50px;
+}
 
 nav ul{
   display: flex;
@@ -154,25 +157,14 @@ nav ul li a{
 
 }
 
-nav ul li:nth-child(4) {
+
+/* hover nav styling */
+nav ul li:hover {
   background-color: #D4D3E9;
   border-radius: 25px;
 }
 
-nav ul li:nth-child(4) a{
-  color: #351D77 ;
-}
 
-
-/* hover nav styling */
-nav ul li:nth-child(4):hover {
-  background-color:  #351D77;
-  border-radius: 25px;
-}
-
-nav ul li:nth-child(4) a:hover{
-  color: #EEE4F0;
-}
 
 
 /* projects styling******************** */
@@ -344,6 +336,11 @@ footer{
   font-size: 0.85em;
 }
 
+.follow i{
+  font-size: 30px;
+  padding: 0 10px;
+}
+
 .hire, .follow, .meet{
   margin: 30px 0;
   text-align: center;
@@ -476,8 +473,18 @@ footer{
     width: 80%;
   }
 
+  .skills ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .skills ul li {
       width: 250px;
+      margin: 20px 50px;
   }
 
   .about img {
@@ -516,7 +523,7 @@ footer{
 
   nav ul li {
     padding: 7px 20px;
-    margin: 0 25px;
+    margin: 0 15px;
   }
 
   .project .image{
@@ -539,14 +546,19 @@ footer{
 
   .project{
     width: 30%;
+    padding: 0px 50px;
   }
 
   .details{
     min-height: 250px;
   }
 
+  .skills {
+    padding-bottom: 100px;
+  }
+
   .skill-list{
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
 
   }
