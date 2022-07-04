@@ -154,6 +154,7 @@ nav ul li a{
   color: #351D77;
   text-transform: uppercase;
   font-size: 0.85em;
+  letter-spacing: 0.75px
 
 
 }
@@ -165,6 +166,12 @@ nav ul li:hover {
   border-radius: 25px;
 }
 
+.intro{
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -458,7 +465,7 @@ footer{
   }
 
   h1{
-    margin: 100px 0;
+    /* margin: 100px 0; */
     font-size: 3em;
     line-height: 75px;
   }
