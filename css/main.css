@@ -529,6 +529,10 @@ footer{
 
   }
 
+  .intro{
+    min-height: 80vh;
+  }
+  
   .intro h3{
     margin: 0 150px 150px 150px;
   }
